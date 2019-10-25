@@ -1,1 +1,1 @@
-from gdeck import *
+from gdeck.gdeck import *

@@ -37,6 +37,6 @@ class Deck:
 
     def __repr__(self):
         s = ""
-        for i in range(len(self.cards)):
-            s += " " * i + str(self.cards[i]) + "\n"
+        for i in self.cards:
+            s += str(i) + "\n"
         return s
