@@ -1,2 +1,1 @@
-import gdeck.gdeck
-name = "gdeck"
+from gdeck import *

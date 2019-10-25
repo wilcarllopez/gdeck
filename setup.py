@@ -14,10 +14,5 @@ setup(name='gdeck',
             'Programming Language :: 3.7'
       ],
       data_files=None,
-      include_package_data = True,
-      # scripts= ,
-      entry_points={
-            'console_scripts': [
-                  'gdeck=gdeck.gdeck:main'
-            ]
-      },
+      include_package_data = True
+      )
