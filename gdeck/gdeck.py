@@ -36,7 +36,7 @@ class Deck:
         return current
 
     def __repr__(self):
-        s = ""
-        for i in self.cards:
-            s += str(i) + "\n"
-        return s
+        #s = ""
+        #for i in self.cards:
+        #    s += str(i) + "\n"
+        return self.cards

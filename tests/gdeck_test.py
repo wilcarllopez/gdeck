@@ -21,6 +21,6 @@ def test_deck():
     for s in suit:
         for r in rank:
             cards.append("{} of {}".format(r,s))
-    assert (Deck()) == cards
+    assert ((Deck()) == cards)
 if __name__ == '__main__':
     pytest.main()
